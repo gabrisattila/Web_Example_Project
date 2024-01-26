@@ -1,0 +1,117 @@
+body { 
+    background-image: url("../img/the-matrix-digital-rain.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+  }
+.row{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: medium;
+}
+
+.kepkozep {
+    display: block;
+    margin: 0 auto;
+  }
+figcaption{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+a{
+    text-transform: none;
+    color:white;
+}
+a:hover{
+    text-transform: none;
+    color:rgb(255, 153, 0);
+}
+a:visited{
+    color:rgb(185, 111, 0);
+}
+p{
+    text-align: justify;
+}
+footer p{
+    text-align: center;
+}
+.tldr{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+main img
+{
+	padding: 5px;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+}
+video {
+    max-width: 90%;
+    height: auto;
+  }
+table{
+    margin: 0 auto
+}
+table, th, td {
+    border: 1px solid white;
+    text-align: center;
+  }
+aside {
+    width: 30%;
+    padding: 10px 0px 0px 10px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgba(255,255,255,0.1);
+  }
+.x-nav{
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    text-decoration: none;
+    background-color: rgb(52,58,64);
+    margin-top: 0px;
+}
+.x-bal{
+    float:left;
+    width: 50%;
+    text-align: center;
+    padding-top:20px;
+}
+.x-jobb{
+    float:right;
+    width: 50%;
+    text-align: center;
+    padding-top:20px;
+
+}
+input{
+    margin: 0 auto;
+}
+label{
+    font-size: 150%;
+    text-shadow: 2px 2px 4px black ;
+}
+.bal-gomb{ text-align: left;}
+.jobb-gomb{ text-align: right;}
+
+.menulogo{    width: 120px;}
+
+#activate-normal {
+    display: none;
+  }
+.kipozicional a {position:absolute; left:-9999px;}      
+.kipozicional a:focus {position:static; background:black}
